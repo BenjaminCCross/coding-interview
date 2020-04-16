@@ -10,13 +10,14 @@ public class Main {
         for (int i = 0; i < big.length; i++) {
             big[i] = i;
           }
+          int[] sample = big;
           System.out.println("Before Scramble");
-          print(small);
-          scramble(small);
+          print(sample);
+          scramble(sample);
           System.out.println("After Scramble");
-          print(small);
+          print(sample);
           System.out.println("After sort");
-          print(s.selectionSort(small));
+          print(s.mergeSort(sample));
     }
     public static void print(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
