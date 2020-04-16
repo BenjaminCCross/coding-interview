@@ -1,3 +1,5 @@
+# Notes on Algorithms and Data Structures
+
 | Name | type | Best Case Time Complexity | Average Case Time Complexity | Worse Case Time Complexity|Auxiliary Space | Stable | Adaptive |
 |----|----|-------------------------|----------------------------|--------------------------|---------------|------|--------|
 |C’s qsort()|Quicksort|O(NlogN)|O(NlogN)|O(N2)|O(log N)|Depends on the implementation of the comparator function|No|
@@ -6,7 +8,6 @@
 |Java 6’s Arrays.sort()|Quicksort|O(NlogN)|O(NlogN)|O(N2)|O(logN)|Depends|No|
 |Java 7’s Arrays.sort()|Timsort (Hybrid of Mergesort and Insertion Sort)|O(N)|O(NlogN)|O(NlogN)|O(N)|Yes|Yes|
 |Java’s Collections.sort()|Mergesort|O(NlogN)|O(NlogN)|O(NlogN)|O(N)|Yes|Yes|
-
 
 |type|Average Access|Average Search|Average Insertion|Average Deletion|Worst Access|Worst Search|Worst Insertion|Worst Deletion|Space Complexity|
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -20,8 +21,7 @@
 |B-Tree|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(n)|
 |AVL Tree|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(n)|
 
-
-|Type|Best	Time|Average Time|Worst Time|Worst Space|
+|Type|Best Time|Average Time|Worst Time|Worst Space|
 |---|---|---|---|---|
 |Quicksort|Ω(n log(n))|O(n log(n))|O(n^2)|O(log(n))|
 |Mergesort|Ω(n log(n))|O(n log(n))|O(n log(n))|O(n)|
